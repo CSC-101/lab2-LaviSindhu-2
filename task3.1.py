@@ -1,7 +1,7 @@
 def function2(a:int, b:int, c:int) -> int:
     if a > b and a > c:
         return a - b             # In general, when will a call to this function evaluate this statement?
-    elif b > c:
+    elif b > c:                     #
         return b + c             # In general, when will a call to this function evaluate this statement?
     else:
         return 2 * c             # In general, when will a call to this function evaluate this statement?
